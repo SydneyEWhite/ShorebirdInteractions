@@ -1,76 +1,56 @@
-flock_id,date,time,datetime,Location,sanderling_count,ringed_plover_count,ringed_plover_observed,ringed_plover_tremble,comments,remove,temp,precipitation,wind
-1,"October 2, 2025",11:33,10/2/2025 11:00:00,strand,2,0,,,Ruddy Turnstone present,FALSE,11.7,0,22
-2,"October 2, 2025",11:41,10/2/2025 11:00:00,strand,2,0,,,,FALSE,11.7,0,22
-3,"October 2, 2025",11:43,10/2/2025 11:00:00,strand,6,5,8,1,"Observed multiple times for practice, remove from dataset
-, Fight between sanderling and ringed plover",TRUE,11.7,0,22
-4,"October 2, 2025",12:22,10/2/2025 12:00:00,strand,0,8,5,1,Other bird present,FALSE,12,0,24.5
-5,"October 2, 2025",12:30,10/2/2025 12:00:00,strand,0,3,2,0,,FALSE,12,0,24.5
-6,"October 2, 2025",12:40,10/2/2025 12:00:00,strand,0,10,4,0,,FALSE,12,0,24.5
-7,"October 2, 2025",13:21,10/2/2025 13:00:00,seaweed,3,11,4,0,resting (no foraging behavior),FALSE,12.3,0,25.2
-8,"October 2, 2025",13:46,10/2/2025 13:00:00,strand,17,12,5,0,"ringed plover nipped butt of standerling
-, sanderling following ringed plover
-, gull present",FALSE,12.3,0,25.2
-9,"October 2, 2025",14:28,10/2/2025 14:00:00,seaweed,4,12,,,"ringed plovers not observed because no foraging present
-, 2 golden plovers present",FALSE,12.8,0,23.4
-10,"October 2, 2025",14:32,10/2/2025 14:00:00,seaweed,7,5,,,ringed plovers not observed because no foraging present,FALSE,12.8,0,23.4
-11,"October 2, 2025",14:36,10/2/2025 14:00:00,seaweed,2,11,,,ringed plovers not observed because they flew away after initial counts,FALSE,12.8,0,23.4
-12,"October 2, 2025",14:53,10/2/2025 14:00:00,strand,0,22,5,1,,FALSE,12.8,0,23.4
-13,"October 2, 2025",15:03,10/2/2025 15:00:00,seaweed,1,17,,,ringed plovers not observed because they flew away after initial counts,FALSE,13.5,0,19.4
-14,"October 2, 2025",15:08,10/2/2025 15:00:00,strand,3,13,5,0,a subset flew from the previous observation,FALSE,13.5,0,19.4
-15,"October 2, 2025",15:27,10/2/2025 15:00:00,strand,18,7,5,0,"steps on one spot (trembling?)
-, 3 fulls present",FALSE,13.5,0,19.4
-101,"October 3, 2025",8:29,10/3/2025 8:00:00,strand,0,2,,,Golden Plover present,FALSE,12.8,0,26
-102,"October 3, 2025",8:41,10/3/2025 8:00:00,seaweed,3,30,,,"Sanderling foraging
-, Ringed Plover not foraging
-, High wind some shielding ",FALSE,12.8,0,26
-103,"October 3, 2025",8:52,10/3/2025 8:00:00,strand,2,1,,,"8 Golden Plovers
-, Sanderling preening
-, Ringed Plover pecking",FALSE,12.8,0,26
-105,"October 3, 2025",9:36,10/3/2025 9:00:00,strand,2,9,,,"no foraging
-, 2 Golden plovers",FALSE,12.5,0,24
-106,"October 3, 2025",9:43,10/3/2025 9:00:00,seaweed,8,0,,,foraging,FALSE,12.5,0,24
-107,"October 3, 2025",9:45,10/3/2025 9:00:00,seaweed,1,0,,,,FALSE,12.5,0,24
-108,"October 3, 2025",9:49,10/3/2025 9:00:00,seaweed,10,2,,,"foot trembling observed twice
-, 1 ringed plover appeared alone but was counted in the group",FALSE,12.5,0,24
-110,"October 3, 2025",10:25,10/3/2025 10:00:00,strand,0,3,,,,FALSE,12.6,0,28
-111,"October 3, 2025",10:56,10/3/2025 10:00:00,strand,0,5,,,chilling,FALSE,12.6,0,28
-112,"October 3, 2025",10:56,10/3/2025 10:00:00,seaweed,1,2,,,"chilling
-, merged with 111 while watching",FALSE,12.6,0,28
-113,"October 3, 2025",11:08,10/3/2025 11:00:00,seaweed,3,0,,,gull present,FALSE,12.6,0,28
-114,"October 3, 2025",11:07,10/3/2025 11:00:00,air,12,0,,,"flying, therefore accuracy of identification might be questionable",FALSE,12.6,0,28
-115,"October 3, 2025",11:16,10/3/2025 11:00:00,seaweed,11,0,,,foraging,FALSE,12.6,0,28
-116,"October 3, 2025",11:32,10/3/2025 11:00:00,strand,3,12,,,"wheateater present
-, ringed plover foraging
-, sanderling chilling
-",FALSE,12.6,0,28
-117,"October 3, 2025",11:45,10/3/2025 11:00:00,strand,0,2,,,,FALSE,12.6,0,28
-118,"October 3, 2025",12:00,10/3/2025 12:00:00,upper,3,0,,,,FALSE,12.9,0,28
-119,"October 3, 2025",12:00,10/3/2025 12:00:00,upper,10,0,,,,FALSE,12.9,0,28
-120,"October 3, 2025",12:03,10/3/2025 12:00:00,upper,9,0,,,,FALSE,12.9,0,28
-121,"October 3, 2025",12:40,10/3/2025 12:00:00,seaweed,4,1,,,ringed plover ran to strand and sanderlings followed,FALSE,12.9,0,28
-122,"October 3, 2025",12:48,10/3/2025 12:00:00,strand,3,8,,,"sanderlings followed ringed plovers (very obvious)
-",FALSE,12.9,0,28
-123,"October 3, 2025",13:34,10/3/2025 13:00:00,strand,0,1,,,Near the rocks,FALSE,12.9,0,31
-124,"October 3, 2025",13:36,10/3/2025 13:00:00,seaweed,1,0,,,"other species present
-, near rocks",FALSE,12.9,0,31
-125,"October 3, 2025",13:38,10/3/2025 13:00:00,strand,9,8,,,"Gull und other birds present
-, near rocks",FALSE,12.9,0,31
-126,"October 3, 2025",13:40,10/3/2025 13:00:00,strand,0,3,,,,FALSE,12.9,0,31
-127,"October 3, 2025",13:45,10/3/2025 13:00:00,strand,1,2,,,2 other birds present,FALSE,12.9,0,31
-128,"October 3, 2025",13:47,10/3/2025 13:00:00,strand,1,1,,,,FALSE,12.9,0,31
-129,"October 3, 2025",13:49,10/3/2025 13:00:00,strand,2,0,,,2 dunlin present,FALSE,12.9,0,31
-130,"October 3, 2025",13:52,10/3/2025 13:00:00,seaweed,1,1,,,,FALSE,12.9,0,31
-131,"October 3, 2025",14:04,10/3/2025 14:00:00,strand,0,1,,,,FALSE,13,0,30
-132,"October 3, 2025",14:15,10/3/2025 14:00:00,strand,0,14,,,Other birds present,FALSE,13,0,30
-133,"October 3, 2025",14:31,10/3/2025 14:00:00,seaweed,3,0,,,relaxed foraging,FALSE,13,0,30
-134,"October 3, 2025",14:53,10/3/2025 14:00:00,air,1,0,,,,FALSE,13,0,30
-135,"October 3, 2025",14:54,10/3/2025 14:00:00,seaweed,3,0,,,,FALSE,13,0,30
-136,"October 3, 2025",14:56,10/3/2025 14:00:00,seaweed,1,1,,,,FALSE,13,0,30
-137,"October 3, 2025",15:01,10/3/2025 15:00:00,strand,0,2,,,chilling,FALSE,13.6,0,31
-138,"October 3, 2025",15:13,10/3/2025 15:00:00,strand,0,1,,,"from 140 likely
-, near rocks",FALSE,13.6,0,31
-139,"October 3, 2025",15:13,10/3/2025 15:00:00,strand,0,1,,,"from 140 likely
-, near rocks",FALSE,13.6,0,31
-140,"October 3, 2025",15:11,10/3/2025 15:00:00,strand,2,10,,,near rocks,FALSE,13.6,0,31
-141,"October 3, 2025",15:12,10/3/2025 15:00:00,seaweed,1,1,,,,FALSE,13.6,0,31
-201,"October 4, 2025",9:16,10/4/2025 9:00:00,strand,1,2,,,main island,FALSE,13.3,1.6,35.2
+flock_id,date,time,datetime,Location,sanderling_count,ringed_plover_count
+1,"October 2, 2025",11:33,10/2/2025 11:00:00,strand,2,0
+2,"October 2, 2025",11:41,10/2/2025 11:00:00,strand,2,0
+3,"October 2, 2025",11:43,10/2/2025 11:00:00,strand,6,5
+4,"October 2, 2025",12:22,10/2/2025 12:00:00,strand,0,8
+5,"October 2, 2025",12:30,10/2/2025 12:00:00,strand,0,3
+6,"October 2, 2025",12:40,10/2/2025 12:00:00,strand,0,10
+7,"October 2, 2025",13:21,10/2/2025 13:00:00,seaweed,3,11
+8,"October 2, 2025",13:46,10/2/2025 13:00:00,strand,17,12
+9,"October 2, 2025",14:28,10/2/2025 14:00:00,seaweed,4,12
+10,"October 2, 2025",14:32,10/2/2025 14:00:00,seaweed,7,5
+11,"October 2, 2025",14:36,10/2/2025 14:00:00,seaweed,2,11
+12,"October 2, 2025",14:53,10/2/2025 14:00:00,strand,0,22
+13,"October 2, 2025",15:03,10/2/2025 15:00:00,seaweed,1,17
+14,"October 2, 2025",15:08,10/2/2025 15:00:00,strand,3,13
+15,"October 2, 2025",15:27,10/2/2025 15:00:00,strand,18,7
+101,"October 3, 2025",8:29,10/3/2025 8:00:00,strand,0,2
+102,"October 3, 2025",8:41,10/3/2025 8:00:00,seaweed,3,30
+103,"October 3, 2025",8:52,10/3/2025 8:00:00,strand,2,1
+105,"October 3, 2025",9:36,10/3/2025 9:00:00,strand,2,9
+106,"October 3, 2025",9:43,10/3/2025 9:00:00,seaweed,8,0
+107,"October 3, 2025",9:45,10/3/2025 9:00:00,seaweed,1,0
+108,"October 3, 2025",9:49,10/3/2025 9:00:00,seaweed,10,2
+110,"October 3, 2025",10:25,10/3/2025 10:00:00,strand,0,3
+111,"October 3, 2025",10:56,10/3/2025 10:00:00,strand,0,5
+112,"October 3, 2025",10:56,10/3/2025 10:00:00,seaweed,1,2
+113,"October 3, 2025",11:08,10/3/2025 11:00:00,seaweed,3,0
+114,"October 3, 2025",11:07,10/3/2025 11:00:00,air,12,0
+115,"October 3, 2025",11:16,10/3/2025 11:00:00,seaweed,11,0
+116,"October 3, 2025",11:32,10/3/2025 11:00:00,strand,3,12
+117,"October 3, 2025",11:45,10/3/2025 11:00:00,strand,0,2
+118,"October 3, 2025",12:00,10/3/2025 12:00:00,upper,3,0
+119,"October 3, 2025",12:00,10/3/2025 12:00:00,upper,10,0
+120,"October 3, 2025",12:03,10/3/2025 12:00:00,upper,9,0
+121,"October 3, 2025",12:40,10/3/2025 12:00:00,seaweed,4,1
+122,"October 3, 2025",12:48,10/3/2025 12:00:00,strand,3,8
+123,"October 3, 2025",13:34,10/3/2025 13:00:00,strand,0,1
+124,"October 3, 2025",13:36,10/3/2025 13:00:00,seaweed,1,0
+125,"October 3, 2025",13:38,10/3/2025 13:00:00,strand,9,8
+126,"October 3, 2025",13:40,10/3/2025 13:00:00,strand,0,3
+127,"October 3, 2025",13:45,10/3/2025 13:00:00,strand,1,2
+128,"October 3, 2025",13:47,10/3/2025 13:00:00,strand,1,1
+129,"October 3, 2025",13:49,10/3/2025 13:00:00,strand,2,0
+130,"October 3, 2025",13:52,10/3/2025 13:00:00,seaweed,1,1
+131,"October 3, 2025",14:04,10/3/2025 14:00:00,strand,0,1
+132,"October 3, 2025",14:15,10/3/2025 14:00:00,strand,0,14
+133,"October 3, 2025",14:31,10/3/2025 14:00:00,seaweed,3,0
+134,"October 3, 2025",14:53,10/3/2025 14:00:00,air,1,0
+135,"October 3, 2025",14:54,10/3/2025 14:00:00,seaweed,3,0
+136,"October 3, 2025",14:56,10/3/2025 14:00:00,seaweed,1,1
+137,"October 3, 2025",15:01,10/3/2025 15:00:00,strand,0,2
+138,"October 3, 2025",15:13,10/3/2025 15:00:00,strand,0,1
+139,"October 3, 2025",15:13,10/3/2025 15:00:00,strand,0,1
+140,"October 3, 2025",15:11,10/3/2025 15:00:00,strand,2,10
+141,"October 3, 2025",15:12,10/3/2025 15:00:00,seaweed,1,1
+201,"October 4, 2025",9:16,10/4/2025 9:00:00,strand,1,2
