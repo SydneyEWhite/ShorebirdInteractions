@@ -1,20 +1,19 @@
 # Ecology and Evolution of Birds
 
 setwd("/Users/sydneywhite/Documents/School/birds")
-install.packages("lubridate")
-install.packages("gamair")
-install.packages("gml")
-install.packages("lme4")
-install.packages("DHARMa")
-install.packages("MASS")
+# install.packages("lubridate")
+# install.packages("gamair")
+# install.packages("gml")
+# install.packages("lme4")
+# install.packages("DHARMa")
+# install.packages("MASS")
 
-library(gamair)
+#library(gamair)
 library(lubridate)
 library(mgcv)
 library(lme4)
 library(DHARMa)
 library(MASS)
-library(DHARMa)
 
 ### Data Processing
 # Load Data
@@ -78,6 +77,27 @@ nb_null <- glmer.nb(
   sanderling_count ~ 1 + (1 | Location), 
   data = observations)
 summary(nb_null)
+
+# plot(observations$ringed_plover_count,observations$sanderling_count)
+pred <- data.frame(ringed_plover_count=seq(min(observations$ringed_plover_count), max(observations$ringed_plover_count), by = 1))
+pred$glmm_nb <- predict(glmm_nb, newdata = pred, type = "response", re.form = NA)
+pred$null <- predict(nb_null, newdata = pred, type = "response", re.form = NA)
+# lines(pred$ringed_plover_count, pred$glmm_nb, lwd = 2)
+# lines(pred$ringed_plover_count, pred$null, lwd = 2)
+
+library(ggplot2)
+ggplot(observations, aes(x = ringed_plover_count, y = sanderling_count)) +
+  geom_point(alpha = 0.5) +
+  geom_line(data = pred, aes(x = ringed_plover_count, y = glmm_nb, color = "Full Model")) +
+  geom_line(data = pred, aes(x = ringed_plover_count, y = null, color = "Null Model")) +
+  scale_color_manual(
+    name = "Models",
+    values = c("Full Model" = "blue", "Null Model" = "orange")) + 
+  theme_minimal(base_size = 18) + 
+  theme(plot.title = element_text(hjust = 0.5, size = 18, face = "bold")) +
+  labs(title = "Observed data with Fitted Model Predictions",
+       x = "Ringed Plover Count",
+       y = "Sanderling Count")
 
 # Likelihood-Ratio-Test to check if our model is significantly better than the null model
 anova(nb_null, glmm_nb, test = "LRT")
